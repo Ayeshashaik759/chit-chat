@@ -1,0 +1,14 @@
+{
+  "name": "chit_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "Ayesha Shaik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
