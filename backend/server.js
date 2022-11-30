@@ -8,8 +8,8 @@ dotenv.config();
 
 app.get("/", (req, res) => {
     res.send("api is running successfully");
-})
-=
+});
+
 app.get("/api/chat", (req, res) => {
     res.send(chats);
 });
